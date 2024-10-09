@@ -1,0 +1,123 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.header h2 {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+.content {
+    display: flex;
+    padding: 20px;
+}
+.left-column {
+    width: 35%;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+.right-column {
+    width: 65%;
+    padding-left: 20px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h3 {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+.contact-info, .skills, .hobbies {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contact-info li, .skills li, .hobbies li {
+    margin-bottom: 10px;
+}
+.contact-info li i, .skills li i, .hobbies li i {
+    margin-right: 10px;
+    color: #003366;
+}
+.skills li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills li .dots {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.skills li .dots span {
+    width: 10px;
+    height: 10px;
+    background-color: #00bfff;
+    border-radius: 50%;
+}
+.skills li .dots span.inactive {
+    background-color: #ddd;
+}
+.timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.timeline li {
+    margin-bottom: 20px;
+}
+.timeline li h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #003366;
+}
+.timeline li p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #666;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 14px;
+}
